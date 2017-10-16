@@ -1,0 +1,16 @@
+{
+  "name": "exp-cluster-master",
+  "version": "1.0.0",
+  "description": "A NodeJS cluster master that manages a master node via Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Austin Miller <austinrmiller1991@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "dotenv": "^4.0.0",
+    "redis": "^2.8.0"
+  }
+}
